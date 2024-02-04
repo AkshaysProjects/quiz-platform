@@ -1,3 +1,23 @@
+# Quiz Platform
+
+Welcome to the Quiz Platform project, a dynamic and interactive web application designed for creating and taking quizzes. Built with React, this platform leverages Redux for state management, Material-UI for a sleek user interface, and React Router for seamless navigation between different components.
+
+## Project Structure
+
+The project is structured into several key pages, each serving a distinct purpose:
+
+- **Home Page:** The starting point of the application, presenting users with options to navigate to other sections.
+- **New Quiz Page:** Allows users to create new quizzes, defining questions, options, and correct answers.
+- **My Quizzes Page:** Displays a list of quizzes created by the user, with options to edit or delete them.
+- **Login Page:** Handles user authentication, ensuring a personalized and secure experience.
+- **Play Quiz Page:** Enables users to participate in quizzes, answering questions and submitting their responses.
+- **Result Page:** Shows the results after completing a quiz, providing feedback on performance.
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
