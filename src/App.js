@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import NewQuiz from "./components/NewQuiz";
 import MyQuizzes from "./components/MyQuizzes/MyQuizzes";
-import Quiz from "./components/Quiz";
+import Quiz from "./components/PlayQuiz/Quiz";
 import Login from "./components/Login";
 import Result from "./components/Result";
 function App() {
