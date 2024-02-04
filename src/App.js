@@ -1,5 +1,5 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import NewQuiz from "./components/NewQuiz";
@@ -7,21 +7,27 @@ import MyQuizzes from "./components/MyQuizzes";
 import Quiz from "./components/Quiz";
 import Login from "./components/Login";
 import Result from "./components/Result";
-
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  // Handler to determine the route's element based on login status
+  const handleRoute = (Component) =>
+    isLoggedIn ? <Component /> : <Navigate to="/login" />;
+
   return (
     <BrowserRouter>
-      <div>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/new" element={<NewQuiz />} />
-          <Route exact path="/quizzes" element={<MyQuizzes />} />
-          <Route exact path="/quiz/:id" element={<Quiz />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/result" element={<Result />} />
-        </Routes>
-      </div>
+      <Header />
+      <Routes>
+        <Route path="/" element={handleRoute(Home)} />
+        <Route path="/new" element={handleRoute(NewQuiz)} />
+        <Route path="/quizzes" element={handleRoute(MyQuizzes)} />
+        <Route path="/quiz/:id" element={handleRoute(Quiz)} />
+        <Route path="/result" element={handleRoute(Result)} />
+        <Route
+          path="/login"
+          element={<Login setIsLoggedIn={setIsLoggedIn} />}
+        />
+      </Routes>
     </BrowserRouter>
   );
 }
