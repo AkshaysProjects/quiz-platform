@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import NewQuiz from "./components/NewQuiz";
-import MyQuizzes from "./components/MyQuizzes";
+import MyQuizzes from "./components/MyQuizzes/MyQuizzes";
 import Quiz from "./components/Quiz";
 import Login from "./components/Login";
 import Result from "./components/Result";
