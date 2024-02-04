@@ -111,6 +111,7 @@ const MyQuizzes = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          margin: "24px",
         }}
       >
         <QuizTable

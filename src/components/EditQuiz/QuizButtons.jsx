@@ -12,7 +12,8 @@ const QuizButtons = ({
     <Box
       sx={{
         display: "flex",
-        justifyContent: "space-between",
+        flexDirection: "column",
+        justifyContent: "center",
         alignItems: "center",
         width: "100%",
         mt: 2,
@@ -25,7 +26,7 @@ const QuizButtons = ({
         startIcon={<AddCircleOutline />}
         disabled={!isTitleValid}
         onClick={handleOpenDialog}
-        sx={{ borderRadius: "4px" }}
+        sx={{ borderRadius: "4px", mb: 2 }}
       >
         Add Question
       </Button>
@@ -36,9 +37,6 @@ const QuizButtons = ({
         onClick={handleSaveQuiz}
         sx={{
           borderRadius: "4px",
-          position: "absolute",
-          right: 16,
-          bottom: 16,
         }}
       >
         Save Quiz
