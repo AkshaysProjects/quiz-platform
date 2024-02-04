@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1706961024928,
+    "title": "General Science Quiz",
+    "description": "A quiz covering basic general science topics",
+    "isActive": true,
+    "createdOn": "Feb 03, 12:31 PM",
+    "questions": [
+      {
+        "question": "What is the chemical symbol for water?",
+        "type": "MCQ",
+        "answers": [
+          { "option": "H2O", "isCorrect": true },
+          { "option": "CO2", "isCorrect": false },
+          { "option": "NaCl", "isCorrect": false },
+          { "option": "O2", "isCorrect": false }
+        ],
+        "isActive": true
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "type": "MCQ",
+        "answers": [
+          { "option": "Mars", "isCorrect": true },
+          { "option": "Jupiter", "isCorrect": false },
+          { "option": "Saturn", "isCorrect": false },
+          { "option": "Venus", "isCorrect": false }
+        ],
+        "isActive": true
+      },
+      {
+        "question": "Which of the following are renewable energy sources?",
+        "type": "MCQ",
+        "answers": [
+          { "option": "Solar and Wind", "isCorrect": true },
+          { "option": "Coal and Natural Gas", "isCorrect": false },
+          { "option": "Nuclear and Biomass", "isCorrect": false },
+          { "option": "Oil and Peat", "isCorrect": false }
+        ],
+        "isActive": true
+      },
+      {
+        "question": "What are the primary colors of light?",
+        "type": "MCQ",
+        "answers": [
+          { "option": "Red, Green, Blue", "isCorrect": true },
+          { "option": "Red, Yellow, Blue", "isCorrect": false },
+          { "option": "Green, Purple, Orange", "isCorrect": false },
+          { "option": "Cyan, Magenta, Yellow", "isCorrect": false }
+        ],
+        "isActive": true
+      },
+      {
+        "question": "What is the process by which plants make their food?",
+        "type": "Short",
+        "answers": [{ "option": "Photosynthesis", "isCorrect": true }],
+        "isActive": true
+      },
+      {
+        "question": "What is the hardest natural substance on Earth?",
+        "type": "Short",
+        "answers": [{ "option": "Diamond", "isCorrect": true }],
+        "isActive": true
+      },
+      {
+        "question": "Explain why biodiversity is important for ecosystems.",
+        "type": "Descriptive",
+        "answers": [
+          {
+            "option": "Biodiversity is crucial for ecosystems because it enhances resilience, supports productivity, and provides a wider range of services such as pollination, water purification, and nutrient cycling. It also helps ecosystems adapt to changes and stresses over time.",
+            "isCorrect": true
+          }
+        ],
+        "isActive": true
+      },
+      {
+        "question": "Describe how the water cycle works.",
+        "type": "Descriptive",
+        "answers": [
+          {
+            "option": "The water cycle involves the continuous movement of water within the Earth and its atmosphere. It includes processes such as evaporation, condensation, precipitation, and infiltration. Water evaporates from bodies of water, forms clouds through condensation, falls as precipitation, and either infiltrates the ground to become groundwater or runs off into rivers and oceans, starting the cycle anew.",
+            "isCorrect": true
+          }
+        ],
+        "isActive": true
+      }
+    ]
+  }
+]
