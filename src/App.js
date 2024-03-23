@@ -8,7 +8,7 @@ import Quiz from "./components/PlayQuiz/Quiz";
 import Login from "./components/Login";
 import Result from "./components/Result";
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   // Handler to determine the route's element based on login status
   const handleRoute = (Component) =>
